@@ -53,7 +53,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex w-[60%] flex-col gap-3">
+      <main className="flex w-[full] flex-col gap-3 px-6 sm:w-[80%] sm:px-4 md:w-3/4 lg:w-1/2">
         <h1 className="text-4xl font-bold">ShakeSearch 📖</h1>
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className="relative text-neutral-500 focus-within:text-neutral-50">
